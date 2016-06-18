@@ -24,9 +24,3 @@ Add the service provider to `app/config/app.php`, within the `providers` array.
 ## Configuration
 
 Update the existing `queue.php` config file and change the sqs driver to be `sqspush`. This driver will use the existing sqs config properites (`key`, `secret`, etc...). The main queue driver should still be sqs.
-
-#### Dependencies
-
-The following dependencies are needed for this package:
-
-* AWS: `aws/aws-sdk-php`

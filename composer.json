@@ -10,9 +10,7 @@
     ],
     "require": {
         "php": ">=5.3.0",
-        "illuminate/support": "4.*"
-    },
-    "suggest": {
+        "illuminate/support": "4.*",
         "aws/aws-sdk-php": "2.*"
     },
     "autoload": {
